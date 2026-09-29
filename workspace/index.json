@@ -1,0 +1,6 @@
+{
+  "_help": "Category folder name -> list of type folder names inside it. Add a name to feature a folder, delete it to hide it. On a local server folders are also auto-detected. Folders starting with _ or . are ignored.",
+  "categories": {
+    "Document Workspace": ["Workspace_1"]
+  }
+}
