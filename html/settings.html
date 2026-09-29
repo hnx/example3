@@ -1,0 +1,22 @@
+<div class="modal" id="settingsModal" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+<div class="win">
+<header>
+<div class="lead"><button class="icon-btn" id="setBack" aria-label="Back" hidden><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button><h2 id="settingsTitle">Settings</h2></div>
+<button class="icon-btn" data-close aria-label="Close settings"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></header>
+<div class="body" data-view="root"><button class="row" data-go="account">Account</button><button class="row" data-go="data">Data Management</button><button class="row" data-go="appearance">Appearance</button><button class="row" data-go="about">About</button></div>
+<div class="body" data-view="account" hidden></div>
+<div class="body" data-view="data" hidden></div>
+<div class="body" data-view="appearance" hidden><div class="acc acc-1"><button class="acc-head" aria-expanded="false">Themes</button><div class="acc-panel"><div class="acc-inner"><div class="acc acc-2"><button class="acc-head" aria-expanded="false">Broad Themes</button><div class="acc-panel"><div class="acc-inner"><div class="acc acc-3"><button class="acc-head" aria-expanded="false">Classic Colored Broad Themes</button><div class="acc-panel"><div class="acc-inner"><div class="themes"><button data-theme="black" aria-pressed="true"><span class="sw" style="background:linear-gradient(135deg,#000 50%,#f2f2f2 50%)"></span>Black</button><button data-theme="white" aria-pressed="false"><span class="sw" style="background:linear-gradient(135deg,#fff 50%,#111 50%)"></span>White</button><button data-theme="pink" aria-pressed="false"><span class="sw" style="background:linear-gradient(135deg,#fff5f8 50%,#d6336c 50%)"></span>Pink</button><button data-theme="brown" aria-pressed="false"><span class="sw" style="background:linear-gradient(135deg,#1e1610 50%,#d29a66 50%)"></span>Brown</button><button data-theme="red" aria-pressed="false"><span class="sw" style="background:linear-gradient(135deg,#fff6f5 50%,#d92d20 50%)"></span>Red</button><button data-theme="blue" aria-pressed="false"><span class="sw" style="background:linear-gradient(135deg,#f5f9ff 50%,#1d5fe0 50%)"></span>Blue</button><button data-theme="purple" aria-pressed="false"><span class="sw" style="background:linear-gradient(135deg,#f9f6ff 50%,#7c3aed 50%)"></span>Purple</button><button data-theme="yellow" aria-pressed="false"><span class="sw" style="background:linear-gradient(135deg,#fffbe8 50%,#a16207 50%)"></span>Yellow</button><button data-theme="green" aria-pressed="false"><span class="sw" style="background:linear-gradient(135deg,#f4fbf6 50%,#16803c 50%)"></span>Green</button><button data-theme="grey" aria-pressed="false"><span class="sw" style="background:linear-gradient(135deg,#f2f2f3 50%,#475569 50%)"></span>Grey</button><button data-theme="offwhite" aria-pressed="false"><span class="sw" style="background:linear-gradient(135deg,#faf8f3 50%,#2461e8 50%)"></span>Off-White</button></div></div></div></div></div></div></div></div></div></div></div>
+<div class="body" data-view="about" hidden>
+<div class="about"><p>Instrumentorum, under <a href="https://hnx.github.io/Peffus" target="_blank" rel="noopener noreferrer">Peffus</a>.</p>
+<p>We provide a variety of tools designed for different purposes, bringing useful and practical utilities together within a single platform. Instrumentorum may feature tools developed by Peffus as well as selected tools from other creators and collaborators.</p></div>
+<div class="folders"><button class="row" data-go="identities"><span class="fl"><svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>Digital Identities Under Instrumentorum</span></button></div>
+</div>
+<div class="body" data-view="identities" hidden>
+<button class="row" data-go="platforms"><span class="fl"><svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>Official Digital Platform Identities</span></button>
+<button class="row" data-go="websites"><span class="fl"><svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>Official Websites</span></button>
+</div>
+<div class="body" data-view="platforms" hidden></div>
+<div class="body" data-view="websites" hidden></div>
+</div>
+</div>
